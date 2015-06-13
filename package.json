@@ -1,0 +1,15 @@
+{
+  "name": "Rabbit",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ethan Sherr <esherrthan@gmail.com> (ethansherr.com)",
+  "license": "ISC",
+  "dependencies":{
+  	"net":"latest",
+    "baconjs":"latest",
+    "colors":"latest"
+  }
+}
