@@ -81,7 +81,7 @@ var com = function(){
 			});
 			//on connection close
 			client.on('close', function() {
-				sink({'type':'closed'})
+				sink({'type':'close'})
 			});
 		    
 		    return function() {

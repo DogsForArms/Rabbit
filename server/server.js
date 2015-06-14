@@ -4,8 +4,11 @@ var net = require('net');
 var com = require('../com.js')
 var Colors = require('colors')
 
-	var HOST = '127.0.0.1';
-	var PORT = 6969;
+
+	
+
+	var HOST = 'rabbit-s1.herokuapp.com'//'localhost'//'127.0.0.1';
+	var PORT = process.env.PORT || 6969;
 
 	var server = new com.TCPServer(PORT, HOST)
 
